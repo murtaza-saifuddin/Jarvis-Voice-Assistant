@@ -1,0 +1,80 @@
+ "About"
+
+Murtaza Assistant (also called Jarvis) is a Python-based voice assistant 🎙️
+It listens to your voice, understands commands, and performs tasks like:
+
+ 1-)Opening websites 🌐
+
+ 2-)Playing songs 🎵
+
+ 3-)Speaking responses 🗣️
+
+It’s your own mini AI that talks and works for you!
+
+ "Features"
+
+✅ Wake word detection — say “Murtaza” or “Jarvis”
+✅ Opens websites like Google, YouTube, Facebook, ChatGPT
+✅ Plays songs from your own music library
+✅ Uses SpeechRecognition for input & pyttsx3 for output
+✅ Works completely offline after setup
+
+ "Installation"
+
+Make sure you have Python 3 installed.
+Then open your terminal and install the required libraries:
+pip install speechrecognition pyttsx3 pyaudio
+(If PyAudio fails, install it via .whl file for your system.)
+
+
+ "Project Structure"
+ Mega project1- Jarvis/
+│
+├── pr.py              # Main assistant file
+├── musicLibrary.py    # Custom file with your music links
+└── README.md          # This file
+
+ 
+ "How to Run"
+
+1-)Open the project folder in VS Code or any IDE.
+
+2-)Run the main file:
+python AI Voice assistant.py
+
+3-)Say “Murtaza” or “Jarvis” to wake the assistant.
+
+Then give commands like:
+
+1)“Open Google”
+
+2)“Open YouTube”
+
+3)"Open Linkedin"
+
+4)"Open Chatgpt
+
+5)"Open Facebook"
+
+“Play Shape of You”
+
+"Example Commands" !
+
+| Command          | Action                  |
+| ---------------- | ----------------------- |
+| `Open Google`    | Opens Google            |
+| `Open YouTube`   | Opens YouTube           |
+| `Play song name` | Plays song from library |
+| `Open ChatGPT`   | Opens ChatGPT           |
+
+
+"Author"
+
+Murtaza Saifuddin
+ Social Media Marketer & Python Enthusiast
+ GitHub Profile
+ ← (https://github.com/murtaza-saifuddin)
+
+❤️ Made with Passion
+
+“Built with Python, curiosity, and late-night caffeine ☕”
