@@ -17,16 +17,16 @@ def speak(text):
 
 # Command processing
 def processCommand(c):
-    
-    if "open Google" in c:
+    c = c.lower()
+    if "open google" in c:
         webbrowser.open("https://google.com")
-    elif "open Facebook" in c:
+    elif "open facebook" in c:
         webbrowser.open("https://facebook.com")
-    elif "open Youtube" in c:
-        webbrowser.open("https://youtube.com")
-    elif "open Linkedin" in c:
+    elif "open youtube" in c:
+        webbrowser.open("https://www.youtube.com/")
+    elif "open linkedin" in c:
         webbrowser.open("https://linkedin.com")
-    elif "open Chatgpt" in c:
+    elif "open chatgpt" in c:
         webbrowser.open("https://chatgpt.com")
     elif c.startswith("play"):
         song = " ".join(c.split(" ")[1:])
@@ -81,4 +81,5 @@ if __name__ == "__main__":
             print(f"Request error: {e}")
         except Exception as e:
             print(f"Error: {e}")
+
 
